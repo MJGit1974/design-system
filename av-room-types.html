@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>AV Room Types</title>
+<style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { background: #f0f0f0; font-family: Verdana, Geneva, sans-serif; padding: 40px; }
+.page { background: #fff; width: 1400px; margin: 0 auto; padding: 52px 56px 48px; }
+.header { display: flex; align-items: center; justify-content: space-between; margin-bottom: 44px; padding-bottom: 20px; border-bottom: 1px solid #D0D3D3; }
+.header-left { display: flex; align-items: center; gap: 20px; }
+.logo { font-family: Verdana, sans-serif; font-size: 20px; font-weight: bold; color: #000; }
+.logo-bar { color: #30EA03; }
+.header-subtitle { font-size: 10px; font-weight: bold; letter-spacing: 0.18em; text-transform: uppercase; color: #8D979D; border-left: 1px solid #D0D3D3; padding-left: 18px; }
+.header-badge { font-size: 9px; font-weight: bold; letter-spacing: 0.1em; text-transform: uppercase; background: #000; color: #30EA03; padding: 5px 14px; border-radius: 2px; }
+.grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 20px; }
+.category { display: flex; flex-direction: column; }
+.cat-label { background: #000; color: #fff; font-size: 11px; font-weight: bold; letter-spacing: 0.14em; text-transform: uppercase; padding: 11px 16px; display: flex; align-items: center; justify-content: space-between; margin-bottom: 3px; }
+.cat-dash { width: 16px; height: 2px; background: #30EA03; }
+.rooms { display: flex; flex-direction: column; gap: 3px; }
+.room { background: #f7f7f7; border: 1px solid #e8e8e8; padding: 16px 16px 12px; display: flex; flex-direction: column; gap: 10px; }
+.room-tag { font-size: 8px; font-weight: bold; letter-spacing: 0.14em; text-transform: uppercase; color: #30EA03; background: #000; display: inline-block; padding: 2px 7px; align-self: flex-start; }
+.room svg { width: 100%; height: auto; display: block; }
+.room-footer { display: flex; align-items: baseline; justify-content: space-between; padding-top: 4px; border-top: 1px solid #e4e4e4; }
+.room-name { font-size: 10px; font-weight: bold; color: #000; }
+.room-cap { font-size: 9px; color: #8D979D; }
+.footer { margin-top: 36px; padding-top: 16px; border-top: 1px solid #D0D3D3; display: flex; align-items: center; justify-content: space-between; }
+.footer-logo { font-family: Verdana, sans-serif; font-size: 13px; font-weight: bold; color: #000; }
+.footer-note { font-size: 9px; color: #8D979D; letter-spacing: 0.05em; }
+</style>
+</head>
+<body>
+<div class="page">
+  <div class="header">
+    <div class="header-left">
+      <div class="logo">HAL<span class="logo-bar">=</span>ON</div>
+      <div class="header-subtitle">AV Room Types</div>
+    </div>
+    <div class="header-badge">AV Solutions</div>
+  </div>
+  <div class="grid">
+    <div class="category">
+      <div class="cat-label">Create<div class="cat-dash"></div></div>
+      <div class="rooms">
+        <div class="room">
+          <div class="room-tag">Studio</div>
+          <svg viewBox="0 0 260 200" xmlns="http://www.w3.org/2000/svg">
+            <polygon points="30,155 130,105 230,155 130,195" fill="#d4d4d4" stroke="#bbb" stroke-width="0.5"/>
+            <polygon points="30,155 30,60 130,20 130,105" fill="#e8e8e8" stroke="#ccc" stroke-width="0.5"/>
+            <polygon points="130,105 130,20 230,60 230,155" fill="#cecece" stroke="#bbb" stroke-width="0.5"/>
+            <polygon points="42,128 42,80 98,52 98,100" fill="#1a1a1a" stroke="#30EA03" stroke-width="1.2"/>
+            <polygon points="45,125 45,83 95,56 95,98" fill="#0f0f0f"/>
+            <line x1="50" y1="92" x2="90" y2="73" stroke="#30EA03" stroke-width="0.9" opacity="0.6"/>
+            <circle cx="70" cy="57" r="2.5" fill="#30EA03"/>
+            <rect x="50" y="53" width="42" height="3" rx="1" fill="#333" transform="rotate(-26,71,54)"/>
+            <ellipse cx="150" cy="150" rx="30" ry="16" fill="#d0d0d0" stroke="#bbb" stroke-width="0.8"/>
+            <ellipse cx="128" cy="162" rx="10" ry="5.5" fill="#b8b8b8" stroke="#999" stroke-width="0.6"/>
+            <ellipse cx="172" cy="162" rx="10" ry="5.5" fill="#b8b8b8" stroke="#999" stroke-width="0.6"/>
+            <ellipse cx="150" cy="148" rx="8" ry="4" fill="#222" stroke="#30EA03" stroke-width="0.8"/>
+            <circle cx="150" cy="148" r="2" fill="#30EA03" opacity="0.9"/>
+            <text x="130" y="193" font-size="7" fill="#999" font-family="monospace" text-anchor="middle">4 x 4 m</text>
+          </svg>
+          <div class="room-footer"><span class="room-name">Huddle Studio</span><span class="room-cap">2-4 ppl</span></div>
+        </div>
+        <div class="room">
+          <div class="room-tag">Reception</div>
+          <svg viewBox="0 0 260 200" xmlns="http://www.w3.org/2000/svg">
+            <polygon points="20,158 130,100 240,158 130,198" fill="#d4d4d4" stroke="#bbb" stroke-width="0.5"/>
+            <polygon points="20,158 20,55 130,15 130,100" fill="#e8e8e8" stroke="#ccc" stroke-width="0.5"/>
+            <polygon points="130,100 130,15 240,55 240,158" fill="#cecece" stroke="#bbb" stroke-width="0.5"/>
+            <polygon points="30,138 30,55 108,18 108,101" fill="#1a1a1a" stroke="#30EA03" stroke-width="1.4"/>
+            <polygon points="33,135 33,58 105,22 105,99" fill="#0f0f0f"/>
+            <rect x="40" y="64" width="48" height="5" rx="1" fill="#30EA03" opacity="0.5" transform="rotate(-26,64,66)"/>
+            <rect x="40" y="74" width="32" height="3" rx="1" fill="#fff" opacity="0.2" transform="rotate(-26,56,75)"/>
+            <polygon points="65,168 130,133 195,168 130,195" fill="#c8c8c8" stroke="#aaa" stroke-width="0.6"/>
+            <polygon points="65,168 65,155 130,120 130,133" fill="#d5d5d5" stroke="#bbb" stroke-width="0.6"/>
+            <polygon points="130,133 130,120 195,155 195,168" fill="#bebebe" stroke="#aaa" stroke-width="0.6"/>
+            <line x1="65" y1="155" x2="195" y2="155" stroke="#30EA03" stroke-width="1.2" opacity="0.7"/>
+            <rect x="120" y="116" width="18" height="12" rx="1" fill="#222" stroke="#30EA03" stroke-width="0.6"/>
+            <rect x="122" y="118" width="14" height="8" rx="0.5" fill="#30EA03" opacity="0.3"/>
+            <text x="130" y="197" font-size="7" fill="#999" font-family="monospace" text-anchor="middle">6 x 5 m</text>
+          </svg>
+          <div class="room-footer"><span class="room-name">Reception / Lobby</span><span class="room-cap">Digital signage</span></div>
+        </div>
+      </div>
+    </div>
+    <div class="category">
+      <div class="cat-label">Meet<div class="cat-dash"></div></div>
+      <div class="rooms">
+        <div class="room">
+          <div class="room-tag">Small</div>
+          <svg viewBox="0 0 260 200" xmlns="http://www.w3.org/2000/svg">
+            <polygon points="25,158 130,102 235,158 130,196" fill="#d4d4d4" stroke="#bbb" stroke-width="0.5"/>
+            <polygon points="25,158 25,58 130,18 130,102" fill="#e8e8e8" stroke="#ccc" stroke-width="0.5"/>
+            <polygon points="130,102 130,18 235,58 235,158" fill="#cecece" stroke="#bbb" stroke-width="0.5"/>
+            <polygon points="35,130 35,72 100,40 100,98" fill="#1a1a1a" stroke="#30EA03" stroke-width="1.2"/>
+            <polygon points="38,127 38,75 97,44 97,96" fill="#0f0f0f"/>
+            <line x1="42" y1="92" x2="93" y2="66" stroke="#30EA03" stroke-width="0.9" opacity="0.55"/>
+            <rect x="44" y="44" width="48" height="3.5" rx="1.5" fill="#30EA03" transform="rotate(-26,68,45)"/>
+            <polygon points="70,168 130,136 190,168 130,192" fill="#c8c8c8" stroke="#aaa" stroke-width="0.6"/>
+            <polygon points="70,168 70,155 130,123 130,136" fill="#d5d5d5" stroke="#bbb" stroke-width="0.6"/>
+            <polygon points="130,136 130,123 190,155 190,168" fill="#bebebe" stroke="#aaa" stroke-width="0.6"/>
+            <ellipse cx="90" cy="176" rx="10" ry="5" fill="#b8b8b8" stroke="#999" stroke-width="0.5"/>
+            <ellipse cx="170" cy="176" rx="10" ry="5" fill="#b8b8b8" stroke="#999" stroke-width="0.5"/>
+            <ellipse cx="105" cy="128" rx="9" ry="4.5" fill="#b8b8b8" stroke="#999" stroke-width="0.5"/>
+            <ellipse cx="155" cy="128" rx="9" ry="4.5" fill="#b8b8b8" stroke="#999" stroke-width="0.5"/>
+            <rect x="112" y="133" width="36" height="5" rx="2" fill="#222" stroke="#30EA03" stroke-width="0.8"/>
+            <circle cx="130" cy="135" r="2" fill="#30EA03" opacity="0.9"/>
+            <text x="130" y="195" font-size="7" fill="#999" font-family="monospace" text-anchor="middle">5 x 4 m</text>
+          </svg>
+          <div class="room-footer"><span class="room-name">Small Meeting</span><span class="room-cap">4-6 ppl</span></div>
+        </div>
+        <div class="room">
+          <div class="room-tag">Medium</div>
+          <svg viewBox="0 0 260 200" xmlns="http://www.w3.org/2000/svg">
+            <polygon points="15,160 130,98 245,160 130,197" fill="#d0d0d0" stroke="#bbb" stroke-width="0.5"/>
+            <polygon points="15,160 15,55 130,12 130,98" fill="#e5e5e5" stroke="#ccc" stroke-width="0.5"/>
+            <polygon points="130,98 130,12 245,55 245,160" fill="#ccc" stroke="#bbb" stroke-width="0.5"/>
+            <polygon points="22,132 22,72 72,46 72,106" fill="#1a1a1a" stroke="#30EA03" stroke-width="1.1"/>
+            <polygon points="25,129 25,75 69,50 69,104" fill="#0f0f0f"/>
+            <polygon points="75,118 75,58 118,36 118,96" fill="#1a1a1a" stroke="#30EA03" stroke-width="1.1"/>
+            <polygon points="78,115 78,61 115,40 115,93" fill="#0f0f0f"/>
+            <line x1="28" y1="98" x2="66" y2="78" stroke="#30EA03" stroke-width="0.8" opacity="0.55"/>
+            <line x1="81" y1="84" x2="112" y2="68" stroke="#30EA03" stroke-width="0.8" opacity="0.55"/>
+            <rect x="28" y="50" width="38" height="3" rx="1" fill="#30EA03" transform="rotate(-26,47,51)"/>
+            <rect x="80" y="40" width="33" height="3" rx="1" fill="#30EA03" transform="rotate(-26,96,41)"/>
+            <polygon points="45,172 130,128 215,172 130,194" fill="#c5c5c5" stroke="#aaa" stroke-width="0.6"/>
+            <polygon points="45,172 45,158 130,114 130,128" fill="#d2d2d2" stroke="#bbb" stroke-width="0.6"/>
+            <polygon points="130,128 130,114 215,158 215,172" fill="#bababa" stroke="#aaa" stroke-width="0.6"/>
+            <ellipse cx="96" cy="185" rx="9" ry="4.5" fill="#b5b5b5" stroke="#999" stroke-width="0.5"/>
+            <ellipse cx="130" cy="187" rx="9" ry="4.5" fill="#b5b5b5" stroke="#999" stroke-width="0.5"/>
+            <ellipse cx="164" cy="185" rx="9" ry="4.5" fill="#b5b5b5" stroke="#999" stroke-width="0.5"/>
+            <ellipse cx="108" cy="109" rx="8" ry="4" fill="#b5b5b5" stroke="#999" stroke-width="0.5"/>
+            <ellipse cx="152" cy="109" rx="8" ry="4" fill="#b5b5b5" stroke="#999" stroke-width="0.5"/>
+            <rect x="100" y="122" width="60" height="6" rx="3" fill="#222" stroke="#30EA03" stroke-width="0.8"/>
+            <circle cx="130" cy="125" r="2.5" fill="#30EA03" opacity="0.9"/>
+            <text x="130" y="196" font-size="7" fill="#999" font-family="monospace" text-anchor="middle">7 x 5 m</text>
+          </svg>
+          <div class="room-footer"><span class="room-name">Boardroom</span><span class="room-cap">8-10 ppl</span></div>
+        </div>
+      </div>
+    </div>
+    <div class="category">
+      <div class="cat-label">Influence<div class="cat-dash"></div></div>
+      <div class="rooms">
+        <div class="room">
+          <div class="room-tag">Large</div>
+          <svg viewBox="0 0 260 200" xmlns="http://www.w3.org/2000/svg">
+            <polygon points="10,162 130,95 250,162 130,198" fill="#cccccc" stroke="#bbb" stroke-width="0.5"/>
+            <polygon points="10,162 10,50 130,8 130,95" fill="#e3e3e3" stroke="#ccc" stroke-width="0.5"/>
+            <polygon points="130,95 130,8 250,50 250,162" fill="#c8c8c8" stroke="#bbb" stroke-width="0.5"/>
+            <polygon points="18,142 18,50 112,10 112,102" fill="#151515" stroke="#30EA03" stroke-width="1.5"/>
+            <polygon points="21,139 21,53 109,14 109,100" fill="#0d0d0d"/>
+            <line x1="21" y1="88" x2="109" y2="50" stroke="#30EA03" stroke-width="0.3" opacity="0.35"/>
+            <line x1="21" y1="114" x2="109" y2="76" stroke="#30EA03" stroke-width="0.3" opacity="0.35"/>
+            <rect x="28" y="62" width="55" height="7" rx="1" fill="#30EA03" opacity="0.45" transform="rotate(-27,55,65)"/>
+            <rect x="75" y="10" width="70" height="6" rx="3" fill="#333" stroke="#30EA03" stroke-width="0.7" transform="rotate(-6,110,13)"/>
+            <circle cx="110" cy="11" r="2.5" fill="#30EA03" opacity="0.8"/>
+            <ellipse cx="170" cy="148" rx="62" ry="30" fill="#d0d0d0" stroke="#bbb" stroke-width="0.7"/>
+            <ellipse cx="170" cy="157" rx="62" ry="30" fill="#c2c2c2" stroke="#aaa" stroke-width="0.5"/>
+            <ellipse cx="138" cy="166" rx="9" ry="4.5" fill="#b2b2b2" stroke="#999" stroke-width="0.5"/>
+            <ellipse cx="164" cy="172" rx="9" ry="4.5" fill="#b2b2b2" stroke="#999" stroke-width="0.5"/>
+            <ellipse cx="192" cy="170" rx="9" ry="4.5" fill="#b2b2b2" stroke="#999" stroke-width="0.5"/>
+            <ellipse cx="144" cy="124" rx="8" ry="4" fill="#b2b2b2" stroke="#999" stroke-width="0.5"/>
+            <ellipse cx="170" cy="120" rx="8" ry="4" fill="#b2b2b2" stroke="#999" stroke-width="0.5"/>
+            <ellipse cx="196" cy="124" rx="8" ry="4" fill="#b2b2b2" stroke="#999" stroke-width="0.5"/>
+            <rect x="140" y="142" width="60" height="6" rx="3" fill="#222" stroke="#30EA03" stroke-width="0.8"/>
+            <circle cx="170" cy="145" r="2.5" fill="#30EA03" opacity="0.9"/>
+            <text x="130" y="197" font-size="7" fill="#999" font-family="monospace" text-anchor="middle">10 x 6 m</text>
+          </svg>
+          <div class="room-footer"><span class="room-name">Executive Suite</span><span class="room-cap">10-14 ppl</span></div>
+        </div>
+        <div class="room">
+          <div class="room-tag">Conference</div>
+          <svg viewBox="0 0 260 200" xmlns="http://www.w3.org/2000/svg">
+            <polygon points="8,165 130,93 252,165 130,198" fill="#c8c8c8" stroke="#bbb" stroke-width="0.5"/>
+            <polygon points="8,165 8,48 130,6 130,93" fill="#e0e0e0" stroke="#ccc" stroke-width="0.5"/>
+            <polygon points="130,93 130,6 252,48 252,165" fill="#c4c4c4" stroke="#bbb" stroke-width="0.5"/>
+            <polygon points="14,150 14,48 126,6 126,108" fill="#151515" stroke="#30EA03" stroke-width="1.6"/>
+            <polygon points="17,147 17,51 123,10 123,106" fill="#0d0d0d"/>
+            <rect x="22" y="55" width="46" height="32" rx="1" fill="none" stroke="#30EA03" stroke-width="1.2" opacity="0.7" transform="rotate(-27,45,71)"/>
+            <ellipse cx="36" cy="68" rx="6" ry="6" fill="#444"/>
+            <ellipse cx="130" cy="22" rx="22" ry="7" fill="#222" stroke="#30EA03" stroke-width="0.8"/>
+            <circle cx="130" cy="22" r="3.5" fill="#30EA03" opacity="0.7"/>
+            <ellipse cx="180" cy="149" rx="65" ry="31" fill="#cccccc" stroke="#bbb" stroke-width="0.7"/>
+            <ellipse cx="180" cy="158" rx="65" ry="31" fill="#bfbfbf" stroke="#aaa" stroke-width="0.5"/>
+            <ellipse cx="165" cy="174" rx="8" ry="4" fill="#b0b0b0" stroke="#999" stroke-width="0.5"/>
+            <ellipse cx="188" cy="176" rx="8" ry="4" fill="#b0b0b0" stroke="#999" stroke-width="0.5"/>
+            <ellipse cx="174" cy="124" rx="7" ry="3.5" fill="#b0b0b0" stroke="#999" stroke-width="0.5"/>
+            <ellipse cx="198" cy="126" rx="7" ry="3.5" fill="#b0b0b0" stroke="#999" stroke-width="0.5"/>
+            <rect x="152" y="143" width="60" height="6" rx="3" fill="#222" stroke="#30EA03" stroke-width="0.8"/>
+            <circle cx="182" cy="146" r="2.5" fill="#30EA03" opacity="0.9"/>
+            <text x="130" y="197" font-size="7" fill="#999" font-family="monospace" text-anchor="middle">12 x 8 m</text>
+          </svg>
+          <div class="room-footer"><span class="room-name">Conference Hall</span><span class="room-cap">14-20 ppl</span></div>
+        </div>
+      </div>
+    </div>
+    <div class="category">
+      <div class="cat-label">Engage<div class="cat-dash"></div></div>
+      <div class="rooms">
+        <div class="room">
+          <div class="room-tag">Training</div>
+          <svg viewBox="0 0 260 200" xmlns="http://www.w3.org/2000/svg">
+            <polygon points="10,162 130,96 250,162 130,198" fill="#d0d0d0" stroke="#bbb" stroke-width="0.5"/>
+            <polygon points="10,162 10,52 130,10 130,96" fill="#e4e4e4" stroke="#ccc" stroke-width="0.5"/>
+            <polygon points="130,96 130,10 250,52 250,162" fill="#c9c9c9" stroke="#bbb" stroke-width="0.5"/>
+            <polygon points="18,138 18,50 108,12 108,100" fill="#1a1a1a" stroke="#30EA03" stroke-width="1.3"/>
+            <polygon points="21,135 21,53 105,16 105,98" fill="#0f0f0f"/>
+            <rect x="30" y="62" width="50" height="5" rx="1" fill="#30EA03" opacity="0.4" transform="rotate(-27,55,64)"/>
+            <polygon points="108,118 130,107 152,118 130,130" fill="#c5c5c5" stroke="#aaa" stroke-width="0.6"/>
+            <polygon points="108,118 108,110 130,99 130,107" fill="#d2d2d2" stroke="#bbb" stroke-width="0.5"/>
+            <line x1="108" y1="110" x2="152" y2="110" stroke="#30EA03" stroke-width="1" opacity="0.6"/>
+            <rect x="120" y="103" width="18" height="12" rx="1" fill="#333" stroke="#30EA03" stroke-width="0.6"/>
+            <polygon points="145,155 175,140 205,155 175,170" fill="#c8c8c8" stroke="#aaa" stroke-width="0.5"/>
+            <polygon points="145,155 145,147 175,132 175,140" fill="#d5d5d5" stroke="#bbb" stroke-width="0.5"/>
+            <polygon points="160,170 192,154 222,170 192,184" fill="#c5c5c5" stroke="#aaa" stroke-width="0.5"/>
+            <polygon points="160,170 160,162 192,146 192,154" fill="#d2d2d2" stroke="#bbb" stroke-width="0.5"/>
+            <polygon points="178,183 212,166 240,183 212,196" fill="#c2c2c2" stroke="#aaa" stroke-width="0.5"/>
+            <polygon points="178,183 178,174 212,157 212,166" fill="#d0d0d0" stroke="#bbb" stroke-width="0.5"/>
+            <ellipse cx="168" cy="163" rx="7" ry="3.5" fill="#b5b5b5" stroke="#999" stroke-width="0.4"/>
+            <ellipse cx="185" cy="178" rx="7" ry="3.5" fill="#b5b5b5" stroke="#999" stroke-width="0.4"/>
+            <rect x="195" y="52" width="40" height="26" rx="2" fill="#1a1a1a" stroke="#30EA03" stroke-width="0.8" transform="rotate(-8,215,65)"/>
+            <circle cx="215" cy="53" r="1.5" fill="#30EA03" opacity="0.6"/>
+            <text x="130" y="197" font-size="7" fill="#999" font-family="monospace" text-anchor="middle">8 x 6 m</text>
+          </svg>
+          <div class="room-footer"><span class="room-name">Training Room</span><span class="room-cap">12-20 ppl</span></div>
+        </div>
+        <div class="room">
+          <div class="room-tag">Auditorium</div>
+          <svg viewBox="0 0 260 200" xmlns="http://www.w3.org/2000/svg">
+            <polygon points="5,165 130,90 255,165 130,198" fill="#c8c8c8" stroke="#bbb" stroke-width="0.5"/>
+            <polygon points="5,165 5,44 130,5 130,90" fill="#dedede" stroke="#ccc" stroke-width="0.5"/>
+            <polygon points="130,90 130,5 255,44 255,165" fill="#c4c4c4" stroke="#bbb" stroke-width="0.5"/>
+            <polygon points="12,150 12,44 122,6 122,112" fill="#101010" stroke="#30EA03" stroke-width="1.8"/>
+            <polygon points="15,147 15,47 119,10 119,110" fill="#0d0d0d"/>
+            <line x1="15" y1="78" x2="119" y2="38" stroke="#30EA03" stroke-width="0.25" opacity="0.3"/>
+            <line x1="15" y1="105" x2="119" y2="65" stroke="#30EA03" stroke-width="0.25" opacity="0.3"/>
+            <rect x="25" y="56" width="58" height="7" rx="1" fill="#30EA03" opacity="0.4" transform="rotate(-27,54,59)"/>
+            <polygon points="88,115 130,96 172,115 130,130" fill="#c8c8c8" stroke="#30EA03" stroke-width="0.8"/>
+            <polygon points="88,115 88,108 130,89 130,96" fill="#d5d5d5" stroke="#bbb" stroke-width="0.5"/>
+            <polygon points="120,135 175,113 220,135 175,152" fill="#c0c0c0" stroke="#aaa" stroke-width="0.4"/>
+            <polygon points="135,148 195,124 242,148 195,162" fill="#bcbcbc" stroke="#aaa" stroke-width="0.4"/>
+            <polygon points="148,160 210,134 255,160 210,174" fill="#b8b8b8" stroke="#aaa" stroke-width="0.4"/>
+            <ellipse cx="163" cy="136" rx="5" ry="2.5" fill="#a8a8a8" stroke="#999" stroke-width="0.3"/>
+            <ellipse cx="178" cy="140" rx="5" ry="2.5" fill="#a8a8a8" stroke="#999" stroke-width="0.3"/>
+            <ellipse cx="193" cy="136" rx="5" ry="2.5" fill="#a8a8a8" stroke="#999" stroke-width="0.3"/>
+            <ellipse cx="180" cy="152" rx="5" ry="2.5" fill="#a5a5a5" stroke="#999" stroke-width="0.3"/>
+            <ellipse cx="198" cy="149" rx="5" ry="2.5" fill="#a5a5a5" stroke="#999" stroke-width="0.3"/>
+            <line x1="172" y1="5" x2="172" y2="16" stroke="#30EA03" stroke-width="0.8" opacity="0.5"/>
+            <line x1="196" y1="7" x2="196" y2="20" stroke="#30EA03" stroke-width="0.8" opacity="0.5"/>
+            <line x1="220" y1="10" x2="220" y2="24" stroke="#30EA03" stroke-width="0.8" opacity="0.5"/>
+            <circle cx="172" cy="17" r="3" fill="#30EA03" opacity="0.6"/>
+            <circle cx="196" cy="21" r="3" fill="#30EA03" opacity="0.6"/>
+            <circle cx="220" cy="25" r="3" fill="#30EA03" opacity="0.6"/>
+            <text x="130" y="197" font-size="7" fill="#999" font-family="monospace" text-anchor="middle">15 x 12 m</text>
+          </svg>
+          <div class="room-footer"><span class="room-name">Auditorium</span><span class="room-cap">50-200 ppl</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="footer">
+    <div class="footer-logo">HAL<span style="color:#30EA03">=</span>ON</div>
+    <div class="footer-note">AV Solutions - Room Types Reference</div>
+  </div>
+</div>
+</body>
+</html>
